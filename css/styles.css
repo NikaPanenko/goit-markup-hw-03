@@ -186,6 +186,7 @@ img {
 
 .hero {
   padding-bottom: 200px;
+  padding-top: 200px;
 
   background-color: var(--dark-bg-cl);
 }
@@ -195,8 +196,7 @@ img {
   width: 696px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 200px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 
   font-weight: 900;
   font-size: 44px;
@@ -269,9 +269,12 @@ img {
   text-align: center;
 }
 
+.about-container {
+  padding-bottom: 94px;
+}
+
 .about-list {
   display: flex;
-  padding-bottom: 94px;
 }
 
 /* STUDIO Team section */
@@ -390,13 +393,10 @@ img {
   background-color: var(--dark-bg-cl);
 }
 
-.footer-container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
 .footer-logo {
+  display: block;
+  margin-bottom: 20px;
+
   color: var(--light-txt-cl);
 }
 
